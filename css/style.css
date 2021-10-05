@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://raw.githubusercontent.com/obliviousofcraps/mf-dots/master/walls/livestreamcloudythumb.png');
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    padding: 3px;
+    display: flex;
+}
+
+#menu{
+    width:40px;
+    height: 40px;
+    background: #171b25;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+
+.pua{
+    width: 12px;
+    height: 12px;
+    background: #b2a7ed;
+    margin-top: 6px;
+    margin-left: 6px;
+    border-radius: 1px 25px 25px 25px;
+    transform: rotate(180deg);
+}
+
+.dos{
+    background: #fc6a85;
+    transform: rotate(90deg);
+}
+
+.tres{
+    background: #62dfbe;
+    margin-top: -30px;
+    margin-left: 23px;
+    transform: rotate(-95deg);
+}
+
+.cuatro{
+    background: #fcd171;
+    margin-left: 23px;
+    transform: rotate(0deg);
+}
+
+#date{
+    height: 30px;
+    background: #171b25;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 4px;
+    display: flex;
+}
+
+#date p{
+    color: #f5b2b3;
+    font-size: 16px;
+    padding: 6px;
+}
+
+.line{
+    width: 20px;
+    height: 3px;
+    background: #44afc9;
+    margin-top: 12.5px;
+    transform: rotate(90deg);
+}
+
+#music{
+    height: 30px;
+    background: #171b25;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 4px;
+    padding: 4px;
+    display: flex;
+}
+
+
+#disco{
+    width: 20px;
+    height: 20px;
+    background: #3bd07b;
+    margin-left: 7px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#interior{
+    width: 10px;
+    height: 10px;
+    background: #000;
+    margin:  auto;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+#punto-interior{
+    width: 2px;
+    height: 2px;
+    background: #3bd07b;
+    margin: auto;
+    margin-top: -6px;
+    border-radius: 50%;
+}
+
+#music p{
+    color: #f5b2b3;
+    font-size: 15px;
+    margin-left: 37px;
+    padding: 2px;
+}
+
+.line-hori{
+    width: 10px;
+    height: 3px;
+    background: #44afc9;
+    margin-top: 9px;
+    margin-left: 7px;
+}
+
+#peng{
+    width: 50px;
+    height: 40px;
+    background: #171b25;
+    margin-left: 24%;
+    border-radius: 4px;
+}
+
+#cabeza{
+    width: 10px;
+    height: 10px;
+    background: #f5b2b3;
+    margin: auto;
+    margin-top: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-end-end-radius: 2px;
+    border-end-start-radius: 2px;
+}
+
+.ojos{
+    width: 2px;
+    height: 2px;
+    background: #000;
+    margin-bottom: 9px;
+    margin-left: 2px;
+    border-radius: 70%;
+    display: inline-block;
+}
+
+#boca{
+    width: 2px;
+    height: 2px;
+    background: #000;
+    margin: auto;
+    margin-top: -10px;
+    border-radius: 50%;
+}
+
+#cuerpo{
+    width: 12px;
+    height: 10px;
+    background: #f5b2b3;
+    margin: auto;
+    margin-top: -1px;
+    border-top-left-radius:2px;
+    border-top-right-radius: 2px;
+}
+
+#guata{
+    width: 7px;
+    height: 7px;
+    background: #000;
+    margin-top: 2px;
+    margin-left: 2.1px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#container-aletas{
+    margin-top: 3px;
+    margin-left: -19px;
+    display: flex;
+    position: absolute;
+}
+
+.aletas{
+    width: 5px;
+    height: 4px;
+    background: #f5b2b3;
+    margin-left: 14.5px;
+}
+
+.derecha{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transform: rotate(-90deg);
+}
+
+.izquierda{
+    margin-left: 11px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transform: rotate(90deg);
+}
+
+#devices{
+    width: 160px;
+    height: 35px;
+    background: #171b25;
+    margin-top: 3px;
+    margin-left: 35%;
+    border-radius: 4px;
+    display: flex;
+}
+
+#camera{
+    width: 25px;
+    height: 20px;
+    background: #c989b3;
+    margin-top: 8px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+#flash{
+    width: 10px;
+    height: 7px;
+    background: #c989b3;
+    margin-top: -3px;
+    margin-left: 7px;
+    position: absolute;
+}
+
+#lente{
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    margin: auto;
+    margin-top: 4px;
+    border-color: #171b25;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+#keyboard{
+    width: 30px;
+    height: 20px;
+    background: #e0e8ea;
+    margin-top: 8px;
+    margin-left: 40px;
+    border-radius: 4px;
+}
+
+.keys-container{
+    width: 20px;
+    height: 3px;
+    margin: auto;
+    display: flex;
+}
+
+.key{
+    width: 4px;
+    height: 4px;
+    background: #000;
+    margin-left: 1px;
+    border-radius: 50%;
+}
